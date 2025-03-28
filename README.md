@@ -41,7 +41,8 @@
 
 <h1>📱Mockup do APP </h1>
 
-Pré-Mockup da Interface: <img src="https://github.com/user-attachments/assets/41cd5bd9-ef7e-49ea-8b83-1f5841378d66" width=1000> 
+Pré-Mockup da Interface: <img src="(https://github.com/user-attachments/assets/63ae991b-4761-4729-92a4-65e7c7fa5ac0)
+" width=1000> 
 
 <h1>📊 Modelagem do Banco de Dados</h1>
 <img src="" width=1000>
