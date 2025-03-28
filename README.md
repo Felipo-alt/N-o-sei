@@ -50,6 +50,10 @@ Pré-Mockup da Interface: <img src="![msedge_h0sm7xRCfF](https://github.com/user
 <h1>📖 Dicionário de dados </h1>
 
 <h2>users</h2>
+-id_usuario,	INT.	Identificador único do usuário (chave primária).
+-email	,VARCHAR(255).	Endereço de e-mail do usuário (único).
+-senha	,VARCHAR(255).	Senha do usuário, armazenada de forma segura.
+-data_criacao,	TIMESTAMP.	Data e hora de criação da conta do usuário.
 
 <br><br>
 
