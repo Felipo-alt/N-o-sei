@@ -10,8 +10,7 @@
 
 <h1>🎯 Objetivo do projeto</h1> 
 
-O BANP (Become a New Person) é um aplicativo de monitoramento de vícios que ajuda os usuários a acompanharem seu progresso na abstinência. O app permite registrar recaídas, visualizar estatísticas sobre o tempo e dinheiro economizados, fazer anotações e acessar artigos sobre saúde mental.
-Seu principal objetivo é fornecer suporte na jornada de recuperação, ajudando os usuários a desenvolverem maior autoconsciência e controle sobre seus hábitos prejudiciais. 
+O BANP (Become a New Person) é um aplicativo de monitoramento de vícios que ajuda os usuários a acompanharem seu progresso na abstinência. O app permite registrar recaídas, visualizar estatísticas sobre o tempo e dinheiro economizados, fazer anotações e acessar artigos sobre saúde mental. Seu principal objetivo é fornecer suporte na jornada de recuperação, ajudando os usuários a desenvolverem maior autoconsciência e controle sobre seus hábitos prejudiciais. 
 
 <br>
 
@@ -25,17 +24,17 @@ O BANP (Become a New Person) é voltado para pessoas que desejam monitorar e red
 
 <h1>:hammer: Requisitos funcionais do projeto</h1>
 
-usuarios → Cadastro, login, recuperação de senha, configurações da conta.
+- usuarios → Cadastro, login, recuperação de senha, configurações da conta.
 
-tipos_vicios → Lista de tipos de vícios disponíveis para seleção.
+- tipos_vicios → Lista de tipos de vícios disponíveis para seleção.
 
-vicios → Registro de vícios, exibição na tela principal, tempo/dinheiro economizado, remoção de vício.
+- vicios → Registro de vícios, exibição na tela principal, tempo/dinheiro economizado, remoção de vício.
 
-recaidas → Registro de recaídas, impacto, duração, anotações, atualização automática dos dados.
+- recaidas → Registro de recaídas, impacto, duração, anotações, atualização automática dos dados.
 
-anotações → Registro, exibição e edição de anotações.
+- anotações → Registro, exibição e edição de anotações.
 
-artigos → Exibição e seleção de artigos.
+- artigos → Exibição e seleção de artigos.
 
 <h1>☑️ Requisitos não funcionais para o site</h1> 
 
@@ -70,17 +69,17 @@ Mockup da Interface:[Mockup](https://github.com/user-attachments/files/19514217/
 
 <h1>📖 Dicionário de dados </h1>
 
-<h2>Coleção users</h2>
-Essa coleção é necessária para cadastrar o usuário e seus dados, possuindo os campos: created_time, email, uid, diplay_name, photo_url, age, reason.
+<h2>Coleção usuários</h2>
+Essa coleção é necessária para cadastrar o usuário e seus dados, permitindo autenticação e personalização da conta.
 <br><br>
 
-- `created_time`: É um campo do tipo **timestamp**. É usado para armazenar a data de criação do perfil, ou seja, a data de cadastro. 
-- `email`: É um campo do tipo **string**. É usado para armazenar o email da conta. 
-- `uid`: É um campo do tipo **string**. É usado para armazenar o identificador único do usuário (Firebase Auth).
-- `display_name`: É um campo do tipo **string**. É usado para armazenar o nome do usuário, respondido através do formulário.
-- `photo_url`: É um campo do tipo **string**. É usado para armazenar a url da foto de perfil do usuário.
-- `age`: É um campo do tipo **integer**. É usado para armazenar a idade do usuário, respondida através do formulário.
-- `reason`: É um campo do tipo **string**. É usado para armazenar o motivo pelo qual o usuário utiiza do aplicativo. 
+"uid": É um campo do tipo String. "Identificador único do usuário no sistema."
+
+"nome": É um campo do tipo String. "Armazena o nome completo do usuário."
+
+"email": É um campo do tipo String. "Contém o endereço de e-mail do usuário, usado para login."
+
+"created_time": É um campo do tipo Timestamp. "Armazena a data e hora do cadastro do usuário."
 
 <h2>Subcoleção Collections</h2>
 Essa é uma subcoleção dentro da coleção users. Seu papel é armazenar as coleções de cada usuário, possuindo os campos: collection_name, category, start_date, photo_url.
