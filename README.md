@@ -45,7 +45,7 @@ Pré-Mockup da Interface: <img src="(https://github.com/user-attachments/assets/
 " width=1000> 
 
 <h1>📊 Modelagem do Banco de Dados</h1>
-<img src="" width=1000>
+<img src="(https://github.com/user-attachments/assets/a6899b65-bc3f-4911-94c1-b5ae482174e1)" width=1000>
 
 
 <h1>📖 Dicionário de dados </h1>
