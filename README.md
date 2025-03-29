@@ -46,26 +46,22 @@ O BANP (Become a New Person) é voltado para pessoas que desejam monitorar e red
 <h1>📑 Matrizes de Requisitos</h1>
 
 <h2>Matriz de Requisitos Gerais</h2>
-
-<img src="https://github.com/user-attachments/assets/696fb228-1d78-42db-a689-1016e78f84bd" width=1000> 
-
-<br>
-- Observação: C.T significa Criação de Tela. É um requisito tanto de back-end quanto de Front-end, pois no Flutterflow o desenvolvimento de ambas das partes são mais unidas por ser low-code.
+<img src="" width=1000> 
 
 <h2>Matriz de Requisitos Funcionais</h2>
-<img src="https://github.com/user-attachments/assets/59564692-1a81-4232-80c0-3bd26a9ae1d7" width=1000>
+<img src="" width=1000>
 
 <h2>Matriz de Requisitos de Sistema</h2>
-<img src="https://github.com/user-attachments/assets/e2229f0f-2851-4360-875f-6b3b9a6d7502" width=1000>
+<img src="" width=1000>
 
 <h1>📱Mockup do APP </h1>
 
-Mockup da Interface:[Mockup](https://github.com/user-attachments/files/19514217/Wireframe.de.apps.2.pdf)
+Mockup da Interface: [Mockup] (https://github.com/user-attachments/files/19514217/Wireframe.de.apps.2.pdf)
 
 
 
 <h1>📊 Modelagem do Banco de Dados</h1>
-<img src="(https://github.com/user-attachments/assets/86deed65-c683-4a7e-8885-cce5ba27c14d)" width=1000>
+<img src="" width=1000>
 
 <h1>📖 Dicionário de dados </h1>
 
@@ -192,27 +188,6 @@ Essa coleção é necessária para cadastrar o usuário e seus dados, permitindo
 
 <h2>Diagrama de Objetos</h2>
 <img src="https://github.com/user-attachments/assets/77a476e2-8286-4316-9a99-4457930f0042" width=1000>
-
-<h2>Diagrama de Pacotes</h2>
-<img src="https://github.com/user-attachments/assets/19d080db-652a-419f-9f5e-3deec4e5fd79" width=1000>
-
-<h2>Diagrama de Implantação</h2>
-<img src="https://github.com/user-attachments/assets/6b66e54b-ac1d-4548-ad0d-b268fb845424" width=1000>
-
-<h2>Diagrama de Estrutura Composta</h2>
-<img src="https://github.com/user-attachments/assets/ced1766d-d03a-4621-99e4-8410e2bb0fc8" width=1000>
-
-<h2>Diagrama de Perfil</h2>
-<img src="https://github.com/user-attachments/assets/c37e9160-4c89-4afa-b466-7b80af410b58" width=1000>
-
-<h2>Diagrama de Comunicação</h2>
-<img src="https://github.com/user-attachments/assets/1b039f26-80fe-4e16-8a68-13174970caf9" width=1000>
-
-<h2>Diagrama de Estados</h2>
-<img src="https://github.com/user-attachments/assets/40fc6652-9893-4e9a-a8b1-75f5f2e845d4" width=1000>
-
-<h2>Diagrama de Tempo</h2>
-<img src="https://github.com/user-attachments/assets/41357a85-2458-4d54-a45e-8617bf8dfea8" width=1000>
 
 
 <h1> Plano de capacidade (baseado em 1.000 usuários/mês).</h1>
