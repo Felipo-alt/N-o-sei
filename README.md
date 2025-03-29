@@ -46,14 +46,14 @@ O BANP (Become a New Person) é voltado para pessoas que desejam monitorar e red
 <h1>📑 Matrizes de Requisitos</h1>
 
 <h2>Matriz de Requisitos Gerais</h2>
-<img src="" width=1000> 
+
 
 <h2>Matriz de Requisitos Funcionais</h2>
 <img width="1059" alt="Captura de Tela 2025-03-28 às 23 05 24" src="https://github.com/user-attachments/assets/dd7d4ff4-601a-435d-ac8d-f3f80638b8c7" />
 
 
 <h2>Matriz de Requisitos de Sistema</h2>
-<img width="678" alt="Captura de Tela 2025-03-28 às 23 42 46" src="https://github.com/user-attachments/assets/6817d130-15a6-4606-bfa2-36206f0ad069" />
+<img width="1059" alt="Captura de Tela 2025-03-28 às 23 42 46" src="https://github.com/user-attachments/assets/6817d130-15a6-4606-bfa2-36206f0ad069" />
 
 <h1>📱Mockup do APP </h1>
 
@@ -165,6 +165,7 @@ Essa coleção é necessária para cadastrar o usuário e seus dados, permitindo
 
 
 <h2>Diagrama de Caso de uso</h2>
+<img width="752" alt="Captura de Tela 2025-03-28 às 23 48 05" src="https://github.com/user-attachments/assets/ce8b0c8a-19d6-4f8a-89a3-2ec026a9edf2" />
 
 
 
