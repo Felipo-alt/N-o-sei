@@ -49,7 +49,8 @@ O BANP (Become a New Person) é voltado para pessoas que desejam monitorar e red
 <img src="" width=1000> 
 
 <h2>Matriz de Requisitos Funcionais</h2>
-<img src="" width=1000>
+<img width="672" alt="Captura de Tela 2025-03-28 às 23 05 24" src="https://github.com/user-attachments/assets/dd7d4ff4-601a-435d-ac8d-f3f80638b8c7" />
+
 
 <h2>Matriz de Requisitos de Sistema</h2>
 <img src="" width=1000>
