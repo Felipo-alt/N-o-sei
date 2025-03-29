@@ -74,32 +74,62 @@ Essa coleção é necessária para cadastrar o usuário e seus dados, permitindo
 <br><br>
 
 "uid": É um campo do tipo String. "Identificador único do usuário no sistema."
-
 "nome": É um campo do tipo String. "Armazena o nome completo do usuário."
-
 "email": É um campo do tipo String. "Contém o endereço de e-mail do usuário, usado para login."
-
 "created_time": É um campo do tipo Timestamp. "Armazena a data e hora do cadastro do usuário."
 
-<h2>Subcoleção Collections</h2>
-Essa é uma subcoleção dentro da coleção users. Seu papel é armazenar as coleções de cada usuário, possuindo os campos: collection_name, category, start_date, photo_url.
+<h2>Coleção vicios</h2>
+"Essa coleção contém os tipos de vícios que o usuário pode escolher para monitorar, garantindo organização no sistema."
 <br><br>
 
-- `collection_name`: É um campo do tipo **string**. É usado para armazenar o nome da coleção.
-- `category`: É um campo do tipo **string**. É usado para armazenar a categoria da coleção (sobre o que ela é. Exemplo: Cartas, Moedas...).
-- `start_date`: É um campo do tipo **timestamp**. É usado para armazenar a data de início da coleção.
-- `photo_url`: É um campo do tipo **string**. É usado para armazenar a url da foto de capa da coleção.
+"id": É um campo do tipo String. "Identificador único do tipo de vício."
+"nome": É um campo do tipo String. "Armazena o nome do vício (exemplo: 'Álcool', 'Tabagismo')."
+"descricao": É um campo do tipo String. "Contém uma breve descrição do vício."
+"created_time": É um campo do tipo Timestamp. "Registra a data e hora da criação do tipo de vício."
 
-<h2>Subcoleção Item</h2>
-Essa é uma subcoleção dentro da subcoleção Collections. Seu papel é armezenar os dados de cada item da coleção do usuário, possuindo os campos: item_name, item_status, item_value, item_code, photo_url, amount.
+<h2>SubColeção vicios_do_usuário</h2>
+"Essa coleção armazena os vícios que o usuário está monitorando, permitindo o acompanhamento do progresso e recaídas."
 <br><br>
 
-- `item_name`: É um campo do tipo **string**. É usado para armazenar o nome do item.
-- `item_status`: É um campo do tipo **string**. É usado para armazenar o estado do item (Exemplo: Bom, ruim, lacrado...).
-- `item_value`: É um campo do tipo **string**. É usado para armazenar o valor monetário do item.
-- `item_code`: É um campo do tipo **string**. É usado para armazenar o código do item, caso houver (Exemplo: em cada carta pokemon existe um código específico).
-- `photo_url`: É um campo do tipo **string**. É usado para armazenar a url da foto do item.
-- `amount`: É um campo do tipo **string**. É usado para armazenar a quantidade do item. (Se a pessoa tiver repetido).
+"id": É um campo do tipo String. "Identificador único do vício do usuário."
+"tipoVicioId": É um campo do tipo String. "Referência ao tipo de vício cadastrado."
+"data_inicio": É um campo do tipo Timestamp. "Armazena a data em que o usuário começou a monitorar esse vício."
+"tempo_economizado": É um campo do tipo Integer. "Tempo total economizado desde o início da abstinência (em horas)."
+"dinheiro_economizado": É um campo do tipo Float. "Valor economizado ao evitar o vício (em moeda local)."
+"tempo_total_gasto": É um campo do tipo Integer. "Tempo total gasto no hábito antes do monitoramento (em horas)."
+"created_time": É um campo do tipo Timestamp. "Registra a data e hora do registro do vício."
+
+<h2>SubColeção recaidas</h2>
+"Essa coleção permite que o usuário registre recaídas, ajudando no autoconhecimento e controle do hábito."
+<br><br>
+
+"id": É um campo do tipo String. "Identificador único da recaída."
+"data": É um campo do tipo Timestamp. "Armazena a data da recaída."
+"hora": É um campo do tipo String. "Contém o horário da recaída."
+"duracao": É um campo do tipo Integer. "Tempo gasto no vício durante a recaída (em minutos)."
+"impacto": É um campo do tipo String. "Indica o impacto da recaída ('Tempo', 'Dinheiro' ou 'Saúde')."
+"anotacao": É um campo do tipo String (opcional). "Armazena um comentário do usuário sobre a recaída."
+"created_time": É um campo do tipo Timestamp. "Registra a data e hora do registro da recaída."
+
+<h2>SubColeção Anotações</h2>
+"Essa coleção permite que o usuário registre seus sentimentos e reflexões ao longo da recuperação."
+
+<br><br>
+
+""id": É um campo do tipo String. "Identificador único da anotação."
+"data": É um campo do tipo Timestamp. "Armazena a data da anotação."
+"texto": É um campo do tipo String. "Contém o conteúdo da anotação escrita pelo usuário."
+"created_time": É um campo do tipo Timestamp. "Registra a data e hora do registro da anotação."
+
+<h2>SubColeção artigos</h2>
+"Essa coleção contém artigos sobre saúde mental e recuperação, oferecendo suporte ao usuário na jornada de mudança de hábitos."
+<br><br>
+
+"id": É um campo do tipo String. "Identificador único do artigo."
+"titulo": É um campo do tipo String. "Armazena o título do artigo."
+"conteudo": É um campo do tipo String. "Contém o texto completo do artigo."
+"favoritos": É um campo do tipo Array de Strings. "Lista de usuários que favoritaram o artigo."
+"created_time": É um campo do tipo Timestamp. "Registra a data e hora da publicação do artigo."
 
 
 <h1>🧍Diagramas UML</h1>
