@@ -1,4 +1,4 @@
-<h1 align="center"> THE COLLECTOR  </h1>
+<h1 align="center"> BANP - BECOME A NEW PERSON </h1>
 <p align="center">Um trabalho para a disciplina de DESENVOLVIMENTO DE APLICAÇÕES PARA DISPOSITIVOS MÓVEIS - 4º Informática do IFSP-Jacareí</p>
 <br>
 <p align="center">
@@ -21,7 +21,7 @@ Seu principal objetivo é fornecer suporte na jornada de recuperação, ajudando
 - Não iremos compartilhar dados para pesquisas, pois nosso foco é a privacidade do usuario
 
 <h1>👥 Público-alvo</h2>
-O público-alvo do aplicativo é qualquer tipo de colecionador, desde os colecionadores profissionais até os amadores, os colecionadores de vídeo games até colecionadores de selos.
+O BANP (Become a New Person) é voltado para pessoas que desejam monitorar e reduzir hábitos prejudiciais, como consumo de álcool, tabagismo, jogos de azar e outros vícios.
 
 <h1>:hammer: Requisitos funcionais do projeto</h1>
 
@@ -61,7 +61,7 @@ artigos → Exibição e seleção de artigos.
 
 <h1>📱Mockup do APP </h1>
 
-Mockup da Interface:(https://github.com/user-attachments/files/19514217/Wireframe.de.apps.2.pdf)
+Mockup da Interface:[Mockup](https://github.com/user-attachments/files/19514217/Wireframe.de.apps.2.pdf)
 
 
 
