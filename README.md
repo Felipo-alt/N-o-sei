@@ -56,12 +56,17 @@ O BANP (Become a New Person) é voltado para pessoas que desejam monitorar e red
 
 <h1>📱Mockup do APP </h1>
 
-Mockup da Interface: [Mockup] (https://github.com/user-attachments/files/19514217/Wireframe.de.apps.2.pdf)
+Mockup da Interface: 
+![Wireframe de apps](https://github.com/user-attachments/assets/4e746339-d0c5-4afe-8e33-722be8e17995)
+
+[Mockup] (https://github.com/user-attachments/files/19514217/Wireframe.de.apps.2.pdf)
 
 
 
 <h1>📊 Modelagem do Banco de Dados</h1>
-<img src="" width=1000>
+<img width="1059" alt="Captura de Tela 2025-03-28 às 22 34 55" src="https://github.com/user-attachments/assets/73bcda73-db5f-4c96-9415-75fdc1340b5f" />
+
+<br><br>
 
 <h1>📖 Dicionário de dados </h1>
 
