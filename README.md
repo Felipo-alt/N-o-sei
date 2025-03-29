@@ -9,14 +9,16 @@
 -  Carlos Eduardo Duque Polito
 
 <h1>🎯 Objetivo do projeto</h1> 
-O objetivo do projeto é a construção de um aplicativo funcional, que permita colecionadores acessarem suas coleções de qualquer lugar do mundo e a qualquer momento, facilitando, também, a organização das coleções.
+
+O BANP (Become a New Person) é um aplicativo de monitoramento de vícios que ajuda os usuários a acompanharem seu progresso na abstinência. O app permite registrar recaídas, visualizar estatísticas sobre o tempo e dinheiro economizados, fazer anotações e acessar artigos sobre saúde mental.
+Seu principal objetivo é fornecer suporte na jornada de recuperação, ajudando os usuários a desenvolverem maior autoconsciência e controle sobre seus hábitos prejudiciais. 
 
 <br>
 
 <h1>✖️ O que não é o objetivo do projeto</h1>
 
-- Sistema de venda de artigos colecionáveis.
-- Transações monetárias.
+- Monetização
+- Não iremos compartilhar dados para pesquisas, pois nosso foco é a privacidade do usuario
 
 <h1>👥 Público-alvo</h2>
 O público-alvo do aplicativo é qualquer tipo de colecionador, desde os colecionadores profissionais até os amadores, os colecionadores de vídeo games até colecionadores de selos.
@@ -33,7 +35,8 @@ recaidas → Registro de recaídas, impacto, duração, anotações, atualizaç�
 
 anotações → Registro, exibição e edição de anotações.
 
-artigos → Exibição e favoritar artigos (RF20–RF21).
+artigos → Exibição e seleção de artigos.
+
 <h1>☑️ Requisitos não funcionais para o site</h1> 
 
 - Desempenho: O software deve funcionar sem travamentos e com agilidade de resposta.
@@ -58,8 +61,9 @@ artigos → Exibição e favoritar artigos (RF20–RF21).
 
 <h1>📱Mockup do APP </h1>
 
-Pré-Mockup da Interface: <img src="https://github.com/user-attachments/assets/41cd5bd9-ef7e-49ea-8b83-1f5841378d66" width=1000> 
-Mockup do App: [The Collector.pdf](https://github.com/user-attachments/files/19507316/The.Collector.pdf)
+Mockup da Interface:(https://github.com/user-attachments/files/19514217/Wireframe.de.apps.2.pdf)
+
+
 
 <h1>📊 Modelagem do Banco de Dados</h1>
 <img src="https://github.com/user-attachments/assets/1d0b66fd-5ff7-4ea5-874c-063865fb1997" width=1000>
